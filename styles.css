@@ -411,6 +411,18 @@ textarea:focus-visible {
   overflow: clip;
 }
 
+.hero-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("../landscape.jpg");
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.18;
+  mix-blend-mode: soft-light;
+}
+
 .hero::before,
 .hero::after {
   content: "";
@@ -503,7 +515,7 @@ textarea:focus-visible {
 
 .hero-meta {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.9rem;
   margin-top: clamp(1rem, 1.8vw, 2rem);
 }
@@ -711,7 +723,7 @@ textarea:focus-visible {
       transparent 31px,
       rgba(255, 255, 255, 0.03) 32px
     );
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .stage-topline,
@@ -741,10 +753,11 @@ textarea:focus-visible {
 }
 
 .stage-photo {
-  width: 100%;
+  display: block;
+  width: 80%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
+  object-position: center center;
 }
 
 .wireframe {
@@ -1961,16 +1974,25 @@ textarea:focus-visible {
   }
 
   .hero-meta {
-    grid-template-columns: none;
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(12rem, 1fr);
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scrollbar-width: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+    overflow: visible;
   }
 
-  .hero-meta::-webkit-scrollbar {
-    display: none;
+  .hero-meta-card {
+    padding: 0.65rem 0.7rem;
+    border-radius: 16px;
+  }
+
+  .hero-meta-card span {
+    margin-bottom: 0.35rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-meta-card strong {
+    font-size: 0.78rem;
+    line-height: 1.2;
   }
 
   .hero-stage {
@@ -1980,11 +2002,6 @@ textarea:focus-visible {
 
   .stage-visual {
     min-height: clamp(14rem, 56vw, 20rem);
-  }
-
-  .stage-photo {
-    height: auto;
-    aspect-ratio: 4 / 3;
   }
 
   .stage-note {
@@ -2062,6 +2079,18 @@ textarea:focus-visible {
   .hero {
     padding-top: clamp(1.1rem, 5.5vw, 1.8rem);
     padding-bottom: 0;
+  }
+
+  .hero-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-meta-card {
+    padding: 0.6rem 0.65rem;
+  }
+
+  .hero-meta-card strong {
+    font-size: 0.74rem;
   }
 
   .hero-stage {
