@@ -1923,7 +1923,7 @@ textarea:focus-visible {
   }
 
   .hero {
-    padding-top: clamp(0.55rem, 2vw, 1rem);
+    padding-top: clamp(1rem, 3.2vw, 1.8rem);
   }
 
   .manifesto-portrait {
@@ -2060,7 +2060,7 @@ textarea:focus-visible {
   }
 
   .hero {
-    padding-top: clamp(0.45rem, 1.5vw, 0.8rem);
+    padding-top: clamp(0.85rem, 4.5vw, 1.35rem);
     padding-bottom: 0;
   }
 
