@@ -416,7 +416,7 @@ textarea:focus-visible {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: url("landscape.jpg");
+  background-image: url("../landscape.jpg");
   background-size: cover;
   background-position: center center;
   opacity: 0.18;
