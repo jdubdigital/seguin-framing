@@ -1896,6 +1896,10 @@ textarea:focus-visible {
 }
 
 @media (max-width: 900px) {
+  .hero-backdrop {
+    opacity: 0.1;
+  }
+
   body.nav-open {
     overflow: hidden;
   }
