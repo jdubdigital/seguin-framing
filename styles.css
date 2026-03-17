@@ -2186,7 +2186,18 @@ textarea:focus-visible {
   }
 
   .marquee {
-    display: none;
+    display: block;
+    margin-top: 0.9rem;
+  }
+
+  .marquee-track {
+    gap: 1.35rem;
+    padding: 0.6rem 0;
+  }
+
+  .marquee-track span {
+    font-size: 0.62rem;
+    letter-spacing: 0.16em;
   }
 
   .manifesto-grid,
