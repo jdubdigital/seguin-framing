@@ -1984,6 +1984,11 @@ textarea:focus-visible {
 }
 
 @media (max-width: 900px) {
+  .site-header {
+    /* Let the mobile drawer extend below the sticky header container. */
+    overflow: visible;
+  }
+
   .hero-backdrop {
     opacity: 0.1;
     background-size: min(50vw, 13.5rem);
