@@ -1936,7 +1936,7 @@ textarea:focus-visible {
   .hero-backdrop {
     opacity: 0.1;
     background-size: min(50vw, 13.5rem);
-    background-position: right -0.25rem top 3.75rem;
+    background-position: right 0 top 5.75rem;
   }
 
   body.nav-open {
