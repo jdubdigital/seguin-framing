@@ -348,11 +348,12 @@ textarea:focus-visible {
 }
 
 .brand-text span:last-child {
-  font-family: "Space Mono", monospace;
+  
   color: var(--text-soft);
-  font-size: 0.73rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: nomral;
+  text-align: center;
 }
 
 .site-nav {
@@ -2195,7 +2196,7 @@ textarea:focus-visible {
   }
 
   .brand-text span:last-child {
-    font-size: 0.58rem;
+    font-size: 0.60rem;
   }
 
   .hero-title {
