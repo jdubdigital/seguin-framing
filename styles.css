@@ -516,6 +516,23 @@ textarea:focus-visible {
   font-size: clamp(3rem, 8vw, 7.25rem);
 }
 
+.hero-title-row {
+  display: block;
+}
+
+.hero-ghost {
+  display: none;
+  width: 5.25rem;
+  height: 7rem;
+  background-image: url("./frame-drawing.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+}
+
 .hero-title span:first-child {
   color: transparent;
   -webkit-text-stroke: 1px rgba(244, 239, 229, 0.44);
@@ -2084,8 +2101,7 @@ textarea:focus-visible {
 
 @media (max-width: 720px) {
   .hero-backdrop {
-    background-size: min(40vw, 10.5rem);
-    background-position: right -0.15rem top 4rem;
+    display: none;
   }
 
   .section {
@@ -2122,6 +2138,21 @@ textarea:focus-visible {
 
   .hero-title {
     font-size: clamp(1.9rem, 8.8vw, 3rem);
+  }
+
+  .hero-title-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.65rem;
+    align-items: center;
+  }
+
+  .hero-ghost {
+    display: block;
+    width: clamp(4.5rem, 20vw, 5.5rem);
+    height: clamp(6rem, 26vw, 7.4rem);
+    opacity: 0.18;
+    background-position: right center;
   }
 
   .hero .eyebrow {
