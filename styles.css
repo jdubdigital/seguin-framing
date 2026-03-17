@@ -1935,8 +1935,8 @@ textarea:focus-visible {
 @media (max-width: 900px) {
   .hero-backdrop {
     opacity: 0.1;
-    background-size: min(60vw, 16rem);
-    background-position: right -0.5rem top 3.50rem;
+    background-size: min(50vw, 13.5rem);
+    background-position: right -0.25rem top 3.75rem;
   }
 
   body.nav-open {
@@ -2083,6 +2083,11 @@ textarea:focus-visible {
 }
 
 @media (max-width: 720px) {
+  .hero-backdrop {
+    background-size: min(40vw, 10.5rem);
+    background-position: right -0.15rem top 4rem;
+  }
+
   .section {
     padding: 5rem 0;
   }
@@ -2165,7 +2170,7 @@ textarea:focus-visible {
   }
 
   .wireframe {
-    height: clamp(7rem, 22vw, 10rem);
+    height: clamp(6rem, 18vw, 8.5rem);
   }
 
   .stage-note {
