@@ -580,7 +580,7 @@ textarea:focus-visible {
 .hero-stage {
   position: relative;
   min-height: 0;
-  max-height: 42rem;
+  max-height: none;
   padding: clamp(0.9rem, 1vw, 1.25rem);
   border-radius: var(--radius-xl);
   background:
@@ -589,8 +589,7 @@ textarea:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: var(--shadow-dark);
   overflow: hidden;
-  display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto;
+  display: block;
 }
 
 @media (min-width: 1025px) {
@@ -646,11 +645,11 @@ textarea:focus-visible {
   }
 
   .hero-stage {
-    height: 100%;
+    height: auto;
     grid-column: 2;
     grid-row: 1;
     align-self: center;
-    max-height: clamp(23rem, 60svh, 42rem);
+    max-height: none;
     padding: clamp(0.9rem, 1.8svh, 1.25rem);
   }
 
@@ -784,18 +783,16 @@ textarea:focus-visible {
   position: relative;
   z-index: 1;
   min-height: 0;
-  display: grid;
-  place-items: center;
+  display: block;
   overflow: hidden;
   border-radius: calc(var(--radius-lg) - 8px);
+  line-height: 0;
 }
 
 .stage-photo {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center center;
+  height: auto;
 }
 
 .wireframe {
@@ -1903,7 +1900,7 @@ textarea:focus-visible {
 
   .hero-stage {
     height: auto;
-    max-height: clamp(16rem, 34vw, 22rem);
+    max-height: none;
   }
 
   .section-intro {
@@ -2052,11 +2049,11 @@ textarea:focus-visible {
 
   .hero-stage {
     max-height: none;
-    min-height: clamp(22rem, 78vw, 30rem);
+    min-height: 0;
   }
 
   .stage-visual {
-    min-height: clamp(14rem, 56vw, 20rem);
+    min-height: 0;
   }
 
   .stage-note {
@@ -2161,12 +2158,12 @@ textarea:focus-visible {
 
   .hero-stage {
     max-height: none;
-    min-height: clamp(19rem, 90vw, 25rem);
+    min-height: 0;
     padding: 0.95rem;
   }
 
   .stage-visual {
-    min-height: clamp(12rem, 66vw, 16rem);
+    min-height: 0;
   }
 
   .wireframe {
@@ -2222,7 +2219,7 @@ textarea:focus-visible {
   }
 
   .hero-stage {
-    max-height: clamp(15rem, 42svh, 28rem);
+    max-height: none;
   }
 }
 
@@ -2237,7 +2234,7 @@ textarea:focus-visible {
   }
 
   .hero-stage {
-    max-height: clamp(11rem, 32svh, 20rem);
+    max-height: none;
   }
 }
 
