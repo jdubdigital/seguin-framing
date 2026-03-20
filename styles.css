@@ -1995,7 +1995,7 @@ textarea:focus-visible {
   }
 
   .hero-backdrop {
-    opacity: 0.15;
+    opacity: 0.2;
     background-size: min(50vw, 13.5rem);
     background-position: right 4.25rem top 13.4rem;
   }
