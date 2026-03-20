@@ -261,7 +261,7 @@ textarea:focus-visible {
     rgba(21, 54, 43, 0.7) 0%,
     rgba(10, 28, 22, 0.6) 100%
   );
-  border-bottom: 1px solid rgba(188, 226, 205, 0.2);
+  border-bottom: 0;
   box-shadow:
     0 14px 34px rgba(4, 14, 11, 0.24),
     inset 0 1px 0 rgba(255, 255, 255, 0.14);
@@ -457,7 +457,7 @@ textarea:focus-visible {
 
 .scroll-progress {
   height: 2px;
-  background: rgba(255, 255, 255, 0.03);
+  background: transparent;
 }
 
 .scroll-progress span {
