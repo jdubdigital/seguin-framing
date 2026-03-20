@@ -3,7 +3,8 @@ const header = document.querySelector(".site-header");
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
 const sectionNavLinks = document.querySelectorAll('.site-nav a[href^="#"]');
-const revealItems = document.querySelectorAll(".reveal");
+const revealItems = document.querySelectorAll(".reveal:not([data-reveal-on-load])");
+const loadRevealItems = document.querySelectorAll("[data-reveal-on-load]");
 const filterButtons = document.querySelectorAll(".filter-chip");
 const projectCards = document.querySelectorAll(".work-card");
 const faqButtons = document.querySelectorAll(".faq-question");
@@ -59,7 +60,26 @@ const updateScrollProgress = () => {
   progressBar.style.width = `${progress}%`;
 };
 
+const revealOnLoad = () => {
+  if (!loadRevealItems.length) {
+    return;
+  }
+
+  const delayStep = reduceMotionQuery.matches ? 0 : 120;
+
+  window.requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
+      loadRevealItems.forEach((item, index) => {
+        window.setTimeout(() => {
+          item.classList.add("is-visible");
+        }, index * delayStep);
+      });
+    });
+  });
+};
+
 updateScrollProgress();
+revealOnLoad();
 window.addEventListener("scroll", updateScrollProgress, { passive: true });
 window.addEventListener("resize", updateScrollProgress);
 
