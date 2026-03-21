@@ -2154,7 +2154,7 @@ textarea:focus-visible {
 @media (max-width: 720px) {
   .hero-backdrop {
     background-size: min(40vw, 10.5rem);
-    background-position: right 2.4rem top 6rem;
+    background-position: right 2.4rem top 7.25rem;
   }
 
   .section {
