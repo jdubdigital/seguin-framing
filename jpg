@@ -7,11 +7,11 @@
   <title>
     Seguin New Home Framing | Homes, Commercial Projects & Restorations
   </title>
-  <meta name="description" content="Seguin New Home Framing builds new homes from the foundation up and handles commercial projects, cottage and cabin restorations, and additions across Seguin, Muskoka, and surrounding Ontario cottage country." />
+  <meta name="description" content="Seguin New Home Framing builds new homes from the foundation up and handles commercial projects, cottage and cabin restorations, and additions across Seguin, Muskoka, and surrounding Ontario cottage country, including Parry Sound." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="theme-color" content="#0d1412" />
   <meta property="og:title" content="Seguin New Home Framing | Homes, Commercial Projects & Restorations" />
-  <meta property="og:description" content="New home framing, commercial projects, cottage and cabin restorations, additions, and professional build support across Seguin and Muskoka." />
+  <meta property="og:description" content="New home framing, commercial projects, cottage and cabin restorations, additions, and professional build support across Seguin, Muskoka, and nearby communities including Parry Sound." />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -24,7 +24,7 @@
         "@context": "https://schema.org",
         "@type": "GeneralContractor",
         "name": "Seguin New Home Framing",
-        "description": "Framing contractor for new homes, commercial projects, cottages, cabins, restorations, additions, and structural remodels in Seguin, Muskoka, and surrounding Ontario communities.",
+        "description": "Framing contractor for new homes, commercial projects, cottages, cabins, restorations, additions, and structural remodels in Seguin, Muskoka, and surrounding Ontario communities including Parry Sound.",
         "areaServed": [
           {
             "@type": "Place",
@@ -33,6 +33,10 @@
           {
             "@type": "Place",
             "name": "Muskoka, Ontario"
+          },
+          {
+            "@type": "Place",
+            "name": "Parry Sound, Ontario"
           },
           {
             "@type": "City",
@@ -72,7 +76,7 @@
             "name": "What areas do you serve in Seguin and Muskoka?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Seguin New Home Framing serves Seguin, Muskoka, and nearby communities including Bracebridge, Huntsville, Gravenhurst, Lake of Bays, and surrounding cottage country."
+              "text": "Seguin New Home Framing serves Seguin, Muskoka, and nearby communities including Parry Sound, Bracebridge, Huntsville, Gravenhurst, Lake of Bays, and surrounding cottage country."
             }
           },
           {
@@ -161,7 +165,7 @@
       <div class="container hero-layout">
         <div class="hero-copy reveal">
           <p class="eyebrow">
-            Framing contractor serving Seguin, Muskoka, Bracebridge,
+            Framing contractor serving Seguin, Muskoka, Parry Sound, Bracebridge,
             Huntsville, Gravenhurst, Lake of Bays, and surrounding cottage
             country
           </p>
@@ -177,7 +181,9 @@
           <p class="hero-intro">
             Seguin New Home Framing builds new homes from the foundation up
             and handles commercial projects, cottage and cabin restorations,
-            and addition work across Seguin and Muskoka with a strong focus on
+            and addition work across Seguin and Muskoka, with projects
+            welcomed in surrounding communities like Parry Sound, while
+            maintaining a strong focus on
             efficient materials, sustainability, and reducing waste wherever
             possible.
           </p>
@@ -199,7 +205,7 @@
           </article>
           <article class="hero-meta-card reveal">
             <span>Service Area</span>
-            <strong>Seguin, Muskoka, and surrounding Ontario communities</strong>
+            <strong>Seguin, Muskoka, and surrounding Ontario communities including Parry Sound</strong>
           </article>
           <article class="hero-meta-card reveal">
             <span>Experience</span>
@@ -702,7 +708,7 @@
             </button>
             <div class="faq-answer" id="faq-answer-1" hidden>
               <p>
-                Projects are welcomed across Seguin, Muskoka, Bracebridge,
+                Projects are welcomed across Seguin, Muskoka, Parry Sound, Bracebridge,
                 Huntsville, Gravenhurst, Lake of Bays, and nearby cottage
                 country communities.
               </p>
@@ -772,7 +778,7 @@
               </article>
               <article class="contact-card">
                 <span>Service area</span>
-                <strong>Seguin, Muskoka, and surrounding Ontario communities</strong>
+                <strong>Seguin, Muskoka, and surrounding Ontario communities including Parry Sound</strong>
               </article>
               <article class="contact-card">
                 <span>Project types</span>
@@ -814,7 +820,7 @@
 
             <label>
               Build location
-              <input type="text" name="location" placeholder="Seguin, Bracebridge, Huntsville..." required />
+              <input type="text" name="location" placeholder="Seguin, Muskoka, Parry Sound..." required />
             </label>
 
             <label>
@@ -844,7 +850,7 @@
         <p>
           Framing contractor for new homes, commercial projects,
           restorations, additions, and structural work across Seguin and
-          Muskoka.
+          Muskoka, including surrounding communities like Parry Sound.
         </p>
       </div>
       <div class="footer-meta">
